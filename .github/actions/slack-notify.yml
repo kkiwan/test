@@ -37,6 +37,7 @@ runs:
           EMOTICON="⛔"
         fi
 
+        # 이거 왜 안되지?
         # ${GITHUB_REPOSITORY}, ${GITHUB_RUN_ID}, ${GITHUB_WORKFLOW} ..
         # 이런 값들은 GitHub Actions에서 제공하는 환경변수 값들입니다.
         # 저는 환경변수들을 이용해서 슬랙 알림이 왔을 때 어떤 부분에서 실패했는지 
